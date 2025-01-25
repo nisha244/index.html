@@ -1,7 +1,6 @@
-<!DOCTYPE html>
 <html>
 <head>
-<style lang="en">
+<style>
 ul.a {
   list-style-type: filled circle 
 </style>
@@ -23,4 +22,3 @@ ul.a {
 
 </body>
 </html>
-}
