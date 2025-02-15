@@ -46,12 +46,18 @@ tbody > tr:nth-of-type(odd){
 th, td{
     padding: 0.5em;
 }
-td{
-    text-allign: center;
+
+
+label, textarea{
+    display:block;
 }
-.left{
-    text-allign:left;
+input, textarea{
+    margin-bottom: 1.5em;
 }
+.required{
+    color: #e61d1d;
+}
+
 
 
 .resort{
