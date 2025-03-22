@@ -154,3 +154,81 @@ input,textarea{
     background-repeat: no-repeat;
     background-size:100%;
 }
+
+#mobile{
+     display: none;
+}
+#desktop{
+       display: block;
+}
+#tablet{
+    display: none;
+
+}
+@media only screen and (max-width:1024px) {
+    body{
+        margin: 0;
+        background-color: #ffffff;
+    }
+    #wrapper{
+        min-width: 0px;
+        width: auto;
+        box-shadow: none;
+        border: none;
+    }
+    header{
+        padding: 0.5em 0em;
+    }
+    nav, main{
+        display:block;
+        width: auto;
+    }
+    nav{
+        text-allign: center;
+        padding: 0.5em;
+    }
+    nav li{
+        display: inline;
+        padding: 0.5em;
+
+    }
+    #trailhero, #yurthero, #homehero{
+        height: 200px;
+        background-position: center;
+    }
+}
+@media only screen and (max-width:600px){
+    main{
+        padding: 0.1em 1em;
+        font-size: 90%;
+    }
+    h1{
+        font-size: 2em;
+    }
+    nav{
+        padding:0px;
+    }
+    nav li{
+        display: block;
+        margin: 0px;
+        border-bottom: 2px solid #330000;
+       padding: 0px;
+    }
+    ul{
+        margin: 0px;
+
+    }
+    nav a{
+           display: block;
+}
+#yurthero, #trailhero, #homehero{
+    display: none;
+}
+#mobile{
+display: inline;
+}
+#desktop{
+display: none;
+}
+
+    }
