@@ -3,14 +3,7 @@
 }
 
 body{
-<<<<<<< HEAD
     background-color:#88D8ED;
-=======
-    background-color:#90C7E3;
-    background-image: linear-gradient(#ffffff);
-    background-repeat: no-repeat;
-    height: 100vh;
->>>>>>> 756920018b9f841fc1b441e96be5325114ca0b65
     color:#666666;
     font-family:Arial, Helvetica, sans-serif;
 }
@@ -18,16 +11,10 @@ body{
 header{
     background-color:#000033;
     color:#FFFFFF;
-<<<<<<< HEAD
     height:120px;
     text-align:center;
     padding-top:30px;
     padding-left:3em;
-=======
-    line-height:400%;
-    text-indent:center;
-     padding-top: 15px ;
->>>>>>> 756920018b9f841fc1b441e96be5325114ca0b65
 }
 
 h1,h2,h3{
@@ -47,7 +34,6 @@ nav,main{
 }
 
 nav {
-<<<<<<< HEAD
     font-weight:bold;
     padding:1.5em;
     font-size:120%;
@@ -70,20 +56,10 @@ nav a:visited{
 
 nav a:hover{
     color:#A52A2A;
-=======
-    background-color:#ffffff;
-    font-weight:bold;
-    text-align: center;
-    padding: 10px;
-
->>>>>>> 756920018b9f841fc1b441e96be5325114ca0b65
 }
 
 h2,h3{
     color:#000033;
-}
-h2{
-    text-shadow: 2px 2px #cccccc;
 }
 
 h2{
@@ -94,39 +70,11 @@ main ul{
     list-style-image: url(../images/marker.gif);
 }
 
-<<<<<<< HEAD
 main{
     background-color: #FFFFFF;
     padding:1px 20px 20px;
     width:70%;
-=======
-footer{
-    font-size:75%;
-    padding: 20px;
 }
-table, td, tr, th{
-    border:2px solid #3399CC;
-    border-collapse: collapse;
-}
-tbody > tr:nth-of-type(odd){
-     background-color: #b1e0f2;
-}
-th, td{
-    padding: 0.5em;
-}
-
-
-label, textarea{
-    display:block;
-}
-input, textarea{
-    margin-bottom: 1.5em;
->>>>>>> 756920018b9f841fc1b441e96be5325114ca0b65
-}
-.required{
-    color: #e61d1d;
-}
-
 
 footer{
     background-color: #FFFFFF;
@@ -175,7 +123,6 @@ input,textarea{
 #contact{
     font-size:90%;
 }
-<<<<<<< HEAD
 
 #wrapper{
     width:80%;
@@ -209,110 +156,74 @@ input,textarea{
 }
 
 #mobile{
-     display: none;
+    display:none;
 }
-#desktop{
-       display: block;
-}
-#tablet{
-    display: none;
 
-}
 @media only screen and (max-width:1024px) {
     body{
-        margin: 0;
-        background-color: #ffffff;
+        margin:0px;
+        background-color:#FFFFFF;
     }
     #wrapper{
-        min-width: 0px;
-        width: auto;
-        box-shadow: none;
-        border: none;
+        min-width:0px;
+        width:auto;
+        box-shadow:none;
+        border:none;
     }
     header{
-        padding: 0.5em 0em;
+        padding:0.5em 0em;
     }
-    nav, main{
+    h1{
+        letter-spacing:0.1em;
+    }
+    nav,main{
         display:block;
-        width: auto;
+        width:auto;
     }
     nav{
-        text-allign: center;
-        padding: 0.5em;
+        text-align: center;
+        padding:0.5em;
     }
-    nav li{
-        display: inline;
-        padding: 0.5em;
-
+    nav li {
+        display:inline;
+        padding:0.25em 0.75em;
     }
-    #trailhero, #yurthero, #homehero{
-        height: 200px;
+    #homehero,#yurthero,#trailhero{
+        height:200px;
         background-position: center;
     }
 }
-@media only screen and (max-width:600px){
+
+@media only screen and (max-width:600px) {
     main{
-        padding: 0.1em 1em;
-        font-size: 90%;
+        padding:0.1em 1em;
+        font-size:90%;
     }
     h1{
-        font-size: 2em;
+        font-size:2em;
     }
     nav{
         padding:0px;
     }
     nav li{
-        display: block;
-        margin: 0px;
-        border-bottom: 2px solid #330000;
-       padding: 0px;
+        display:block;
+        margin:0px;
+        border-bottom:2px solid #330000;
+        padding:0px;
     }
     ul{
-        margin: 0px;
-
+        margin:0px;
     }
-    nav a{
-           display: block;
-}
-#yurthero, #trailhero, #homehero{
-    display: none;
-}
-#mobile{
-display: inline;
-}
-#desktop{
-display: none;
-}
-
+    nav a {
+        display:block;
     }
-=======
-#wraper{
-    width: 80%;
-    margin: auto;
-    background-color: #FFFFFF;
-    min-width: 960px;
-    max-width: 1500px;
-    box-shadow: 3px 3px  #333333;
+    #homehero,#yurthero,#trailhero{
+        display:none;
+    }
+    #mobile{
+        display:inline;
+    }
+    #desktop{
+        display:none;
+    }
 }
-main{
-    padding: 1px 20px 20px;
-}
-#homehero{
-     height: 300px;
-     background-image: url(../images/coast.jpg);
-     background-repeat: no-repeat;
-     background-size: 100%;
-}
-#yurthero{
-    height: 300px;
-    background-image: url(../images/yurt.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-#trailhero{
-    height: 300px;
-    background-image: url(../images/trail.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
->>>>>>> 756920018b9f841fc1b441e96be5325114ca0b65
