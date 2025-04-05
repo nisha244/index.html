@@ -33,6 +33,7 @@ nav,main{
     vertical-align: top;
 }
 
+
 nav {
     font-weight:bold;
     padding:1.5em;
@@ -45,6 +46,15 @@ nav ul{
     padding-left:0px;
     font-size:120%;
 }
+nav a{
+    transition-property: color;
+    transition-duration: 3s;
+    transition-timing-function: ease-out;
+    ;
+}
+
+
+
 
 nav a:link{
     color:#5C7FA3;
@@ -106,6 +116,12 @@ label,textarea{
 input,textarea{
     margin-bottom:1.5em;
 }
+video{
+    
+        float: right;
+        padding-left: 20px;
+    
+}
 
 .required{
     color: #e61d1d;
@@ -154,7 +170,15 @@ input,textarea{
     background-repeat: no-repeat;
     background-size:100%;
 }
-
+#thumbnails{
+    display: flex;
+    justify-content: space-around;
+   }
+   #Bigimage{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+   }
 #mobile{
     display:none;
 }
@@ -225,5 +249,8 @@ input,textarea{
     }
     #desktop{
         display:none;
+    }
+    #thumbnails, #Bigimage{
+        display: none;
     }
 }
